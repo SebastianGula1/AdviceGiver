@@ -1,0 +1,16 @@
+.advice-card_container{
+    width: 35vw;
+    height: 40vh;
+    border-radius: 25px;
+    background-color:hsl(217, 19%, 24%) ;
+    position: relative;
+}
+
+.advice-card_button{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
