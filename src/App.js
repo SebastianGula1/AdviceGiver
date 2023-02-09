@@ -17,7 +17,13 @@ function App() {
 
   return (
     <div className="App">
-      {advice && <AdviceCard adviceText={advice.advice} adviceId={advice.id} getAdviceFunc={getAdvice} />}
+      {advice && (
+        <AdviceCard
+          adviceText={advice.advice}
+          adviceId={advice.id}
+          getAdviceFunc={getAdvice}
+        />
+      )}
     </div>
   );
 }
