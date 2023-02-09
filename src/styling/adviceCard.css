@@ -1,16 +1,42 @@
-.advice-card_container{
-    width: 35vw;
-    height: 40vh;
-    border-radius: 25px;
-    background-color:hsl(217, 19%, 24%) ;
-    position: relative;
+.advice-card_container {
+  width: 35vw;
+  height: 45vh;
+  border-radius: 25px;
+  background-color: hsl(217, 19%, 24%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
 }
 
-.advice-card_button{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: -30px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.advice-card_header p {
+  color: hsl(150, 100%, 66%);
+  font-size: 22px;
+  word-spacing: 0.5em;
+}
+
+.advice-card_para p{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+}
+
+.advice-card_button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 450px){
+  .advice-card_container{
+    width: 90vw;
+    height: 35vh;
+    padding-bottom: 15%;
+  }
 }
